@@ -7,14 +7,14 @@ import Logos from "Assets/header/logo.png";
 
 const Logo = () => {
     return (
-        <Box sx={{ mt: "2px", a: { cursor: "pointer" } }}>
+        <Box sx={{ mt: "5px", a: { cursor: "pointer" } }}>
             <Link
                 to="home"
                 spy={true}
                 smooth={true}
                 duration={500}
             >
-                <Image src={Logos} width={200} height={30} alt="Logo" />
+                <Image src={Logos} width={600} height={100} alt="Logo" />
             </Link>
         </Box>
     );

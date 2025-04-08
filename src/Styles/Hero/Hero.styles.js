@@ -1,5 +1,18 @@
 const styles = {
     Container: {
+
+            minHeight: "100vh",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+            flexDirection: {
+              xs: "column", // Stack on small screens
+              md: "row"     // Side-by-side on medium and up
+            },
+            px: { xs: 2, sm: 7, md: 10 },
+            position: "relative",
+            background: theme => theme.palette.primary.HeroGradient,
+            overflow: "hidden",
         pt: {
             xxl: "25em",
             xl: "20em",
@@ -12,26 +25,28 @@ const styles = {
             xs: "7em",
             xxs: "6em"
         },
-        pb: {
-            xxl: "15em",
-            xl: "12em",
-            lg: "9em",
-            md: "6em",
-            smd: "3em",
-            lsm: "5em",
-            msm: "4em",
-            sm: "4em",
-            xs: "4em",
-            xxs: "3.5em"
+        pt: {
+            xxl: "18em",  // was 25em
+            xl: "5em",   // was 20em
+            lg: "12em",   // was 15em
+            md: "10em",   // was 10em (keep same)
+            smd: "10em",
+            lsm: "10em",
+            msm: "9em",
+            sm: "9em",
+            xs: "9em",
+            xxs: "9em"
         },
         position: "relative",
         background: theme => theme.palette.primary.HeroGradient
+        
     },
     HeroImage: {
         position: "absolute",
         right: {
-            lg: "2%",
+            lg: "1%",
             xxs: "0%"
+            
         },
         bottom: "0",
         width: {
@@ -40,10 +55,12 @@ const styles = {
             smd: "65%",
             xxs: "0%"
         },
+        // height: "100%",
         display: {
             smd: "unset",
             xxs: "none"
-        }
+        },
+        zIndex: 1,
     },
     Paticle: {
         position: "absolute",
@@ -53,7 +70,9 @@ const styles = {
             smd: "35%",
             xxs: "90%"
         },
-        height: "80%"
+        height: "80%",
+        zIndex: 0,
+        opacity: 0.2
     }
 };
 

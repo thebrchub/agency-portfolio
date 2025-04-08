@@ -1,8 +1,8 @@
 const styles = {
     Navs: {
-        textAlign: "center",
+        textAlign: "centre",
         a: {
-            m: "0 5px",
+            m: "0 10px",
             "&.active": {
                 button: {
                     color: "primary.main"
@@ -11,7 +11,7 @@ const styles = {
         }
     },
     Buttons: {
-        fontSize: "15px",
+        fontSize: "17px",
         borderRadius: "5px",
         p: "5px 10px",
         fontWeight: 500,

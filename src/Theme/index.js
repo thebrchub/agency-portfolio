@@ -19,7 +19,7 @@ const theme = createTheme({
             default: "#FFFFFF" // Default Background Color
         },
         primary: {
-            main: "#FF4F3E", // Document Main Primary Color
+            main: "rgba(249, 54, 0, 0.94)", // Document Main Primary Color
             light: "#CECECE", // Document Light Color (Button Background)
             box_shadow_black: " #0000001c", // Box Shadow Black (Header Sticky)
             success: "#4CAF50", // SuccessMessage Color
@@ -30,9 +30,9 @@ const theme = createTheme({
             social_bg: "#E7E7E7", // Social Background Color
             social_color: "#415674", // Social Icon Color
             inputBorder: "#0000001f", //For NewsLetter Input Border Color
-            HeroGradient: "linear-gradient(to right, #FFF , #FF4F3E42)", // Gradient (Hero Section)
+            HeroGradient: "linear-gradient(135deg,rgba(0, 208, 255, 0.72) ,rgba(94, 12, 166, 0.65))", // Gradient (Hero Section)
             WorkGradient: "linear-gradient(to right, #FF4F3E42, #FFF)", // Gradient (Portfolio Section)
-            ContactGradient: "linear-gradient(to right, #FF4F3E42, #FFFFFF4A)", // Gradient (Contact Section)
+            ContactGradient: "linear-gradient(to right, #FF4F3E42,rgba(40, 40, 40, 0.29))", // Gradient (Contact Section)
         }
     },
     breakpoints: {

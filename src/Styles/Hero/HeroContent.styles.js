@@ -1,64 +1,75 @@
 const styles = {
-    Container: {
-        width: {
-            smd: "35%",
-            xxs: "100%"
-        },
-        position: "relative",
-        zIndex: "1"
+  Container: {
+    zIndex: 2,
+    maxWidth: {
+      xs: "100%",
+      md: "50%",
     },
-    Title: {
-        fontWeight: 800,
-        fontSize: {
-            md: "3rem",
-            smd: "2rem",
-            msm: "3rem",
-            sm: "2.5rem",
-            xs: "2.2rem",
-            xxs: "2rem"
-        },
-        mb: "10px"
+    px: { xs: 2, sm: 4 },
+    textAlign: {
+      xs: "center",
+      md: "left",
     },
-    Slogan: {
-        fontWeight: 500,
-        fontSize: "20px"
+  },
+
+  Title: {
+    fontWeight: 800,
+    fontSize: {
+      xs: "2rem",
+      sm: "2.5rem",
+      md: "3rem",
+      lg: "4rem",
     },
-    Description: {
-        mt: "20px",
-        mb: "10px",
-        fontSize: "15px",
-        fontWeight: 400,
-        pl: "12px",
-        position: "relative",
-        "&:after": {
-            content: '""',
-            width: "3px",
-            backgroundColor: "primary.main",
-            position: "absolute",
-            left: "0",
-            top: "6px",
-            bottom: "6px"
-        }
+    mb: 2,
+  },
+
+  Slogan: {
+    fontWeight: 500,
+    color: "text.secondary",
+    mb: 2,
+  },
+
+  Description: {
+    fontSize: {
+      xs: "1rem",
+      sm: "1.1rem",
     },
-    Button: {
-        backgroundColor: "primary.light",
-        p: "14px 25px",
-        mt: "15px",
-        borderRadius: "5px",
-        fontSize: "14px",
-        fontWeight: 500,
-        transition: "0.3s ease",
-        svg: {
-            color: "background.default",
-            fontSize: "17px",
-            ml: "10px",
-            mb: "-1px"
-        },
-        "&:hover": {
-            backgroundColor: "primary.main",
-            color: "background.default"
-        }
+    color: "text.primary",
+    maxWidth: "600px",
+    mx: {
+      xs: "auto",
+      md: 0,
+    },
+    mb: 4,
+    borderLeft: {
+      xs: "none",
+      sm: "4px solid orange",
+    },
+    pl: {
+      xs: 0,
+      sm: 2,
     }
+  },
+
+  Button: {
+    display: "inline-flex",
+    alignItems: "center",
+    gap: 1,
+    backgroundColor: "white",
+    color: "black", // default text color
+    px: 3,
+    py: 1.5,
+    borderRadius: "8px",
+    fontWeight: "bold",
+    fontSize: "1rem",
+    boxShadow: 2,
+    transition: "all 0.3s ease-in-out",
+    "&:hover": {
+      backgroundColor: "rgba(249, 54, 0, 0.94)", // orange shade
+      color: "white", // text color on hover
+    },
+  }
+  
 };
 
 export default styles;

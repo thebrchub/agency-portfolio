@@ -1,5 +1,6 @@
 const styles = {
     SeeProjectBtn: {
+        borderRadius: "8px",
         backgroundColor: "primary.main",
         color: "background.default",
         p: "12px 18px",
@@ -7,15 +8,16 @@ const styles = {
         fontWeight: 500,
         border: "1px solid transparent",
         transition: "0.3s ease",
+        boxShadow: 2,
         svg: {
             fontSize: "18px",
             ml: "8px",
             mb: "-1px"
         },
         "&:hover": {
-            backgroundColor: "transparent",
+            backgroundColor: "white",
             color: "text.primary",
-            borderColor: "text.primary"
+            borderColor: "white"
         },
         display: {
             sm: "unset",

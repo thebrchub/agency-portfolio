@@ -29,7 +29,7 @@ const Drawers = ({ toggleDrawer }) => {
                 </ButtonBase>
             </Stack>
             <Typography variant="body1" component="p" sx={styles.Description}>
-                We are codestation21, a group of people passionate about solving problems with the power of code. We have more than 4+ professional experience in different domains and clients. Our problem-solving skills help us to create a great product for you. We are always available to help your dream projects come true.
+                We are Blazing Render Creation Hub, a group of people passionate about solving problems with the power of code. We have more than 4+ professional experience in different domains and clients. Our problem-solving skills help us to create a great product for you. We are always available to help your dream projects come true.
             </Typography>
             <Box sx={styles.Navs}>
                 {Navs &&
