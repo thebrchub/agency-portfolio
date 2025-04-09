@@ -5,7 +5,7 @@ const styles = {
             m: "0 10px",
             "&.active": {
                 button: {
-                    color: "primary.main"
+                    color: "#976ecc"
                 }
             }
         }

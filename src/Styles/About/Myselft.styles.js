@@ -10,6 +10,7 @@ const styles = {
     },
     Title: {
         fontWeight: 700,
+        color: "#162144", 
         mb: "25px",
         fontSize: {
             lg: "2.125rem",
@@ -30,7 +31,7 @@ const styles = {
             width: "3px",
             top: "7px",
             bottom: "5px",
-            backgroundColor: "primary.main",
+            backgroundColor: "#976ecc",
             position: "absolute",
             left: "0"
         }
@@ -39,7 +40,7 @@ const styles = {
         mb: "15px",
         alignItems: "center",
         svg: {
-            backgroundColor: "primary.main",
+            backgroundColor: "#976ecc",
             width: "20px",
             height: "20px",
             color: "background.default",
@@ -53,22 +54,24 @@ const styles = {
         }
     },
     Button: {
-        backgroundColor: "primary.light",
+        backgroundColor: "white",
+        boxShadow: 2,
         p: "14px 25px",
         mt: "5px",
         borderRadius: "5px",
-        fontSize: "14px",
-        fontWeight: 500,
+        fontSize: "1rem",
+        fontWeight: "bold",
         transition: "0.3s ease",
         svg: {
-            color: "background.default",
-            fontSize: "17px",
+            color: "black",
+            fontSize: "20px",
             ml: "10px",
             mb: "-1px"
         },
         "&:hover": {
-            backgroundColor: "primary.main",
-            color: "background.default"
+            backgroundColor: "#162144",
+            color: "background.default",
+           svg:{ color: "white",},
         }
     },
     Image: {

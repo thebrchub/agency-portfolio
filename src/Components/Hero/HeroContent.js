@@ -11,7 +11,7 @@ const HeroContent = () => {
       </Typography>
 
       <Typography variant="h6" component="h6" sx={styles.Slogan}>
-        Your Dream, We Build
+      Fueling Businesses with Smart Tech
       </Typography>
 
       <Typography variant="body1" component="p" sx={styles.Description}>

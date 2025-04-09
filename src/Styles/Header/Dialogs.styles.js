@@ -1,6 +1,6 @@
 const styles = {
     CrossButton: {
-        backgroundColor: "primary.main",
+        backgroundColor: "#162144",
         p: {
             xs: "8px",
             xxs: "3px"

@@ -7,22 +7,22 @@ import Graphic from "Assets/about/graphic.png";
 export default [
     {
         title: "UI/UX",
-        description: "Start with listening to your idea, research, make a wireframe, build a prototype, finalizing the UI/UX.",
+        description: "We craft seamless digital journeys—starting from wireframes to polished interfaces that your users will love using and your devs will love building.",
         icon: Ui
     },
     {
         title: "Web Development",
-        description: "Create a highspeed, modern and responsive website and web application for you.",
+        description: "High-speed, responsive, and built to last. We turn concepts into clean, scalable websites that don’t just look great—they work great too.",
         icon: Web
     },
     {
         title: "App Development",
-        description: "Both Andriod and ios are developing here. We offer a cross-platform solution that is easy to use and maintain.",
+        description: "Whether it’s Android, iOS, or both, we build cross-platform apps that are intuitive, efficient, and a joy to use. One codebase, endless possibilities.",
         icon: App
     },
     {
         title: "Graphic Design",
-        description: "We provide all kinds of designs like logos, flyers, visiting cards, social media, etc.",
+        description: "Visuals that speak louder than words. From logos to social media creatives, we deliver designs that are bold, memorable, and on-brand.",
         icon: Graphic
     }
 ]

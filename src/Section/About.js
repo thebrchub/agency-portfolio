@@ -11,8 +11,8 @@ const About = () => {
     return (
         <Container maxWidth={false} disableGutters as="section" sx={{ pt: "5em" }} id="about">
             <SectionHeading
-                value1="We Provide Best Solutions"
-                value2="For Your Business"
+                value1="Solutions That Work, "
+                value2="Code That Performs"
                 border={true}
             />
             <Solution />

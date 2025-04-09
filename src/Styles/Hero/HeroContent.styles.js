@@ -21,11 +21,13 @@ const styles = {
       lg: "4rem",
     },
     mb: 2,
+    color: "#162144"
   },
 
   Slogan: {
     fontWeight: 500,
-    color: "text.secondary",
+    // color: "text.secondary",
+    color: "black",
     mb: 2,
   },
 
@@ -65,7 +67,7 @@ const styles = {
     boxShadow: 2,
     transition: "all 0.3s ease-in-out",
     "&:hover": {
-      backgroundColor: "rgba(249, 54, 0, 0.94)", // orange shade
+      backgroundColor: "#162144", // dark purple shade
       color: "white", // text color on hover
     },
   }

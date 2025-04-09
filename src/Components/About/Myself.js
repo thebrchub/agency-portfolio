@@ -16,30 +16,29 @@ const Myself = () => {
         <Box sx={styles.Container}>
             <Box sx={{ width: { md: "35%", xxs: "100%" } }}>
                 <Typography variant="h4" component="h4" sx={styles.Title}>
-                    Let&apos;s Something <br />
-                    Know Great About Us
+                Rooted in Passion,  <br />
+                Growing with Purpose
                 </Typography>
                 <Typography variant="body1" component="p" className="sdjh" sx={styles.Description}>
-                    We are a group of professional software developer
-                    team that run by enthusiast for coding and design.
+                We’re a passionate team of coders and creatives, building sleek, high-performing digital experiences that make ideas come alive. Design meets purpose — that’s our mantra.
                 </Typography>
                 <Box sx={{ my: "28px" }}>
                     <Stack direction="row" sx={styles.Features}>
                         <DoneIcon />
                         <Typography variant="body1" component="p">
-                            100% client satisfaction
+                        Built with passion, powered by purpose
                         </Typography>
                     </Stack>
                     <Stack direction="row" sx={styles.Features}>
                         <DoneIcon />
                         <Typography variant="body1" component="p">
-                            Quality Service
+                        Pixel-perfect quality, every single time
                         </Typography>
                     </Stack>
                     <Stack direction="row" sx={styles.Features}>
                         <DoneIcon />
                         <Typography variant="body1" component="p">
-                            Lifetime aftersales supports
+                        Support that actually supports — even after launch
                         </Typography>
                     </Stack>
                 </Box>

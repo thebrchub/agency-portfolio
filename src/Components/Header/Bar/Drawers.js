@@ -29,7 +29,7 @@ const Drawers = ({ toggleDrawer }) => {
                 </ButtonBase>
             </Stack>
             <Typography variant="body1" component="p" sx={styles.Description}>
-                We are Blazing Render Creation Hub, a group of people passionate about solving problems with the power of code. We have more than 4+ professional experience in different domains and clients. Our problem-solving skills help us to create a great product for you. We are always available to help your dream projects come true.
+            At Blazing Render Creation Hub, we’re not just coders — we’re builders of digital possibilities. We’re a tight-knit crew that loves solving real-world problems through smart, scalable tech. With over 4 years of hands-on experience across diverse industries and clients, we turn ideas into digital experiences that work and wow. From startups to scaleups, we’re here to fuel your vision — one line of code at a time.
             </Typography>
             <Box sx={styles.Navs}>
                 {Navs &&
@@ -56,7 +56,7 @@ const Drawers = ({ toggleDrawer }) => {
                 </Box>
                 <Box>
                     <Typography variant="body1" component="p">
-                        171/5, Borhanpur Lane, 6 Hazaribagh Road, Dhaka 1211
+                        Toranagallu RS, Ballari (dist.), Karnataka, India 583123
                     </Typography>
                 </Box>
             </Stack>
@@ -68,7 +68,7 @@ const Drawers = ({ toggleDrawer }) => {
                     <Link href="mailto:info@codestation21.com">
                         <a>
                             <Typography variant="body1" component="p">
-                                info@codestation21.com
+                                connect.brchubllp@gmail.com
                             </Typography>
                         </a>
                     </Link>
@@ -79,10 +79,10 @@ const Drawers = ({ toggleDrawer }) => {
                     <PhoneIcon />
                 </Box>
                 <Box>
-                    <Link href="tel:+8801552938771">
+                    <Link href="tel:+91 xxxxxxxxxx">
                         <a>
                             <Typography variant="body1" component="p">
-                                +880 1552-938771
+                            +91 xxxx xxxxxx
                             </Typography>
                         </a>
                     </Link>

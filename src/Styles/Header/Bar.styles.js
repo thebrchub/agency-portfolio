@@ -1,7 +1,7 @@
 const styles = {
     SeeProjectBtn: {
         borderRadius: "8px",
-        backgroundColor: "primary.main",
+        backgroundColor: "#162144",
         color: "background.default",
         p: "12px 18px",
         fontSize: "15px",
