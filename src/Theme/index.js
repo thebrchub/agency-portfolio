@@ -31,7 +31,7 @@ const theme = createTheme({
             social_color: "#415674", // Social Icon Color
             inputBorder: "#0000001f", //For NewsLetter Input Border Color
             HeroGradient: "linear-gradient(135deg,rgba(0, 208, 255, 0.72) ,rgba(94, 12, 166, 0.65))", // Gradient (Hero Section)
-            WorkGradient: "linear-gradient(to right, #FF4F3E42, #FFF)", // Gradient (Portfolio Section)
+            WorkGradient: "linear-gradient(to right,rgba(0, 208, 255, 0.72), #FFF)", // Gradient (Portfolio Section)
             ContactGradient: "linear-gradient(to right, #FF4F3E42,rgba(40, 40, 40, 0.29))", // Gradient (Contact Section)
         }
     },

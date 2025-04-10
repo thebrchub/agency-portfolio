@@ -1,12 +1,17 @@
+import { AlignHorizontalCenter } from "@mui/icons-material";
+
 const styles = {
     Heading: {
         width: "max-content",
-        fontWeight: 700,
+        fontWeight: 1000,
+        textAlign: "center", 
         letterSpacing: "1px",
         fontSize: {
-            sm: "1.5rem",
+            sm: "2em",
             xxs: "1.2rem"
-        }
+        },
+        margin: "0 auto", // Centers the whole element in the parent container
+        display: "block", // Ensure it behaves like a block-level element
     },
     Divider: {
         mx: "24%",

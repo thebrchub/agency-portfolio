@@ -4,8 +4,7 @@ import NumberCounter from 'number-counter';
 // Data
 import Progresses from "Data/Skill/Progress.data";
 
-
-//Styles
+// Styles
 import styles from "Styles/Skill/Progress.styles";
 
 const Progress = () => {
@@ -23,7 +22,14 @@ const Progress = () => {
                         <LinearProgress
                             variant="determinate"
                             value={progress.progress}
-                            sx={{ height: "5px" }}
+                            sx={{
+                                height: "5px",
+                                borderRadius: "10px",
+                                backgroundColor: "#d5c6e9",
+                                '& .MuiLinearProgress-bar': {
+                                    backgroundColor: "#976ecc", // 💜 Change this to match your theme
+                                },
+                            }}
                         />
                     </Box>
                 ))
@@ -31,4 +37,5 @@ const Progress = () => {
         </Box>
     );
 };
+
 export default Progress;

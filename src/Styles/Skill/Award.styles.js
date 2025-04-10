@@ -9,7 +9,7 @@ const styles = {
     },
     AwardTitle: {
         fontSize: "15px",
-        fontWeight: 500,
+        fontWeight: "bold",
         mt: "5px"
     },
     Title: {
@@ -20,7 +20,7 @@ const styles = {
 
         },
         lineHeight: 1.5,
-        fontWeight: 500
+        fontWeight: 1000
     }
 };
 

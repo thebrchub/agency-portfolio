@@ -1,7 +1,7 @@
 export default {
-    title1: "Creative & Professional",
-    title2: "Skills Experience",
-    description: "We are a remote developer agency based in Bangladesh, working with clients around the world. As passionate designers & developer, we love building website, mobile app and UI/UX that are easy to use.",
-    btnText: "Get Any Project",
+    title1: "Crafted with Precision,",
+    title2: "Delivered with Passion",
+    description: "At BRC HUB, we blend engineering logic with creative firepower to build digital experiences that are fast, functional, and fabulous. Whether it’s a sleek website, a robust app, or intuitive UI/UX — our work doesn’t just look good, it performs like a beast.",
+    btnText: "Let’s Build Something Epic",
     btnUrl: "/"
 }

@@ -18,19 +18,19 @@ export default [
         name: "Web Development",
         filter: "web",
         image: Work,
-        url: "/"
+        url: "https://legalvala.com/"
     },
     {
         name: "Web Development",
         filter: "web",
         image: Work,
-        url: "/"
+        url: "https://startfinitynav.com/"
     },
     {
         name: "Web Development",
         filter: "web",
         image: Work,
-        url: "/"
+        url: "https://thebrchub.com/"
     },
     {
         name: "App Development",

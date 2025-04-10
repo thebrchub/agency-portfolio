@@ -3,10 +3,10 @@ import { useState } from "react";
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 
-//Data
+// Data
 import Awards from "Data/Skill/Award.data";
 
-//Styles
+// Styles
 import styles from "Styles/Skill/Award.styles";
 
 const Award = () => {
@@ -16,6 +16,7 @@ const Award = () => {
             setView(true);
         }
     };
+
     return (
         <Box>
             <Divider sx={styles.Divider} />
@@ -40,21 +41,37 @@ const Award = () => {
                                             <Typography variant="body1" component="p" sx={styles.AwardTitle}>
                                                 {award.title}
                                             </Typography>
-                                            {award.star > 0 &&
-                                                <Rating name="half-rating-read" defaultValue={award.star} precision={0.5} readOnly size="small" sx={{ mt: "5px" }} />
-                                            }
+                                            {award.tagline && (
+                                                <Typography
+                                                    variant="body2"
+                                                    component="p"
+                                                    sx={{ fontStyle: "italic", mt: 1 }}
+                                                >
+                                                    {award.tagline}
+                                                </Typography>
+                                            )}
+                                            {award.star > 0 && (
+                                                <Rating
+                                                    name="half-rating-read"
+                                                    defaultValue={award.star}
+                                                    precision={0.5}
+                                                    readOnly
+                                                    size="small"
+                                                    sx={{ mt: "5px" }}
+                                                />
+                                            )}
+                                            
                                         </Box>
                                     </Grid>
-                                ))
-                            }
+                                ))}
                         </Grid>
                     </Box>
                 </Grid>
-                <Grid item md={4} xxs={0} sx={{ display: { md: "unset", xxs: "none" } }}>
+                <Grid item md={3} xxs={0} sx={{ display: { md: "flex", xxs: "none" }, justifyContent: "flex-end" }}>
                     <Box>
                         <Typography variant="h5" component="h5" sx={styles.Title}>
-                            Great Achievements <br />
-                            In Our Career
+                        Real Work.  <br />
+                        Real Impact
                         </Typography>
                     </Box>
                 </Grid>
@@ -62,4 +79,5 @@ const Award = () => {
         </Box>
     );
 };
+
 export default Award;

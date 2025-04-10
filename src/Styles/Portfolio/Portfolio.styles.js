@@ -3,8 +3,13 @@ const styles = {
         overflow: "hidden",
         py: "5em",
         position: "relative",
+        textAlign: "center", // ✅ This centers inline content like text and heading
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center", // ✅ Ensures all children like SectionHeading are centered
         "&:after": {
             content: '""',
+            // background: theme => theme.palette.primary.WorkGradient,
             background: theme => theme.palette.primary.WorkGradient,
             width: "100%",
             height: "50em",
@@ -37,16 +42,27 @@ const styles = {
                 maxHeight: 0,
                 minWidth: 0,
                 p: "20px 18px",
-                fontSize: "15px",
-                fontWeight: 500,
+                fontSize: "17px",
+                fontWeight: 700,
                 textTransform: "capitalize",
                 "&.Mui-selected": {
-                    color: "text.primary",
-                    backgroundColor: "background.default"
+                    color: "white",
+                    backgroundColor: "#162144",
+                    borderRadius: "5px"
                 }
             }
         }
-    }
+    },
+    // Container: {
+    //     minHeight: "100vh", // Full screen height
+    //     display: "flex",
+    //     flexDirection: "column",
+    //     justifyContent: "center", // vertical center
+    //     alignItems: "center",     // horizontal center
+    //     position: "relative",
+    //     paddingTop: "2rem", // optional spacing from top
+    //     paddingBottom: "2rem"
+    //   },
 };
 
 export default styles;

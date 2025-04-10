@@ -20,22 +20,25 @@ const styles = {
         }
     },
     Button: {
-        backgroundColor: "primary.light",
+        backgroundColor: "white",
+        boxShadow: 2,
         p: "14px 25px",
         mt: "15px",
         borderRadius: "5px",
-        fontSize: "14px",
-        fontWeight: 500,
+        fontSize: "1rem",
+        fontWeight: "bold",
         svg: {
-            color: "background.default",
-            fontSize: "17px",
+            color: "black",
+            fontSize: "20px",
             ml: "10px",
             mb: "-3px"
         },
         transition: "0.3s ease",
         "&:hover": {
-            backgroundColor: "primary.main",
-            color: "background.default"
+            backgroundColor: "#162144",
+            color: "background.default",
+            svg: {
+                color: "white"} 
         }
     }
 };

@@ -1,7 +1,7 @@
 export default [
     {
         field: "Graphics Design",
-        progress: 70
+        progress: 85
     },
     {
         field: "Ui/Ux Design",

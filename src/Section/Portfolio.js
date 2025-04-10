@@ -39,8 +39,8 @@ const Portfolio = () => {
     return (
         <Container maxWidth={false} disableGutters as="section" sx={styles.Container} id="portfolio">
             <SectionHeading
-                value1="Latest Project That"
-                value2="Recently Done"
+                value1="The Latest Chapters "
+                value2="in Our Code Story"
                 border={false}
             />
             <TabContext value={value}>

@@ -12,7 +12,7 @@ const styles = {
         position: "relative",
         a: {
             textDecoration: "none",
-            color: "text.primary",
+            color: "#162144",
             img: {
                 width: "100%",
                 height: "100%"
@@ -34,7 +34,7 @@ const styles = {
             left: "0",
             right: "0",
             bottom: "0",
-            backgroundColor: "primary.main",
+            backgroundColor:"#4c246d",
             opacity: "0.3",
             transition: "all 0.5s cubic-bezier(0, 0, 0.2, 1)",
             transformOrigin: "top left",
@@ -43,7 +43,7 @@ const styles = {
             zIndex: 1
         },
         "& .css-mui-svg": {
-            backgroundColor: "primary.main",
+            backgroundColor: "#162144",
             color: "background.default",
             position: "absolute",
             top: "25%",
@@ -56,7 +56,8 @@ const styles = {
             transform: "translate(-50%, -50%) scaleY(0)",
             transition: "all 0.4s cubic-bezier(0, 0, 0.2, 1)",
             opacity: 0,
-            visibility: "hidden"
+            visibility: "hidden",
+            borderRadius: "7px"
         },
         "&:hover": {
             img: {
@@ -95,7 +96,7 @@ const styles = {
         },
         transition: "0.3s ease",
         "&:hover": {
-            color: "primary.main"
+            color: "#976ecc"
         }
     }
 };
