@@ -38,7 +38,7 @@ const FooterThree = () => {
     }
     return (
         <Box>
-            <Typography variant="h6" component="h6" sx={styles.Title}>
+            {/* <Typography variant="h6" component="h6" sx={styles.Title}>
                 Newsletters
             </Typography>
             <Typography variant="body1" component="p" sx={styles.Description}>
@@ -98,7 +98,7 @@ const FooterThree = () => {
                         </>
                     }
                 </ButtonBase>
-            </Box>
+            </Box> */}
         </Box>
     );
 };

@@ -12,7 +12,7 @@ import styles from "Styles/Footer/FooterFour.styles";
 const FooterFour = () => {
     return (
         <Box>
-            <Typography variant="h6" component="h6" sx={styles.Title}>
+            {/* <Typography variant="h6" component="h6" sx={styles.Title}>
                 Our Members
             </Typography>
             <Box>
@@ -30,7 +30,7 @@ const FooterFour = () => {
                         <Box component="img" src={Gallery4} sx={styles.Image} alt="Gallery" />
                     </Grid>
                 </Grid>
-            </Box>
+            </Box> */}
         </Box>
     );
 };
