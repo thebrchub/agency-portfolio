@@ -21,7 +21,7 @@ export default [
         icon: App
     },
     {
-        title: "Graphic Design",
+        title: "Animation & VFX",
         description: "Visuals that speak louder than words. From logos to social media creatives, we deliver designs that are bold, memorable, and on-brand.",
         icon: Graphic
     }

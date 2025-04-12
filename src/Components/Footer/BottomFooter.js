@@ -29,7 +29,7 @@ const BottomFooter = () => {
             <Box sx={{ display: { smd: "block", xxs: "none" } }}>
                 <Stack direction="row" sx={{ alignItems: "center" }}>
                     <Typography variant="body1" component="p" sx={styles.Copyright}>
-                        © {new Date().getFullYear()} Code Station 21. All Rights Reserved.
+                        © {new Date().getFullYear()} Blazing Render Creation Hub LLP. All Rights Reserved.
                     </Typography>
                     <Stack direction="row" sx={styles.Terms}>
                         <ButtonBase>
@@ -58,7 +58,7 @@ const BottomFooter = () => {
                         </ButtonBase>
                     </Stack>
                     <Typography variant="body1" component="p" sx={styles.Copyright}>
-                        © {new Date().getFullYear()} Code Station 21. All Rights Reserved.
+                        © {new Date().getFullYear()} Blazing Render Creation Hub LLP. All Rights Reserved.
                     </Typography>
                 </Stack>
             </Box>

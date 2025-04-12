@@ -3,6 +3,6 @@ export default [
     "Mobile apps development",
     "UI/UX Design",
     "Graphics Design",
-    "Digital Marketing",
+    "Animation & VFX",
     "SEO and SMM"
 ]

@@ -55,10 +55,11 @@ const styles = {
             smd: "65%",
             xxs: "0%"
         },
-        // height: "100%",
+        //height: "100%",
         display: {
             smd: "unset",
-            xxs: "none"
+            xxs: "none",
+
         },
         zIndex: 1,
     },

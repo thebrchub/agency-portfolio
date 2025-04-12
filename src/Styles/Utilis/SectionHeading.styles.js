@@ -8,7 +8,10 @@ const styles = {
         letterSpacing: "1px",
         fontSize: {
             sm: "2em",
-            xxs: "1.2rem"
+            xxs: "1.2rem",
+            xs: "1rem",  // Mobile
+            sm: "2rem",    // Tablet
+            md: "2.5rem",  // Desktop
         },
         margin: "0 auto", // Centers the whole element in the parent container
         display: "block", // Ensure it behaves like a block-level element

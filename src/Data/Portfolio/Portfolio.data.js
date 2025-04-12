@@ -13,6 +13,12 @@ export default [
         filter: "graphic",
         image: Work,
         url: "/"
+    }, 
+    {
+        name: "Graphics Design",
+        filter: "graphic",
+        image: Work,
+        url: "/"
     },
     {
         name: "Web Development",

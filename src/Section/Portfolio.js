@@ -58,7 +58,7 @@ const Portfolio = () => {
                         <Tab label="Web Development" value="1" onClick={() => filterItem('web')} />
                         <Tab label="App Development" value="2" onClick={() => filterItem('app')} />
                         <Tab label="UI/UX" value="3" onClick={() => filterItem('ui')} />
-                        <Tab label="Graphics Design" value="4" onClick={() => filterItem('graphic')} />
+                        <Tab label="Animation & VFX" value="4" onClick={() => filterItem('graphic')} />
                     </TabList>
                 </Box>
                 <TabPanel value="1" sx={{ pr: "0px", mt: "15px" }}>
