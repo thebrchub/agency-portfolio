@@ -31,6 +31,14 @@ const FooterFour = () => {
                     </Grid>
                 </Grid>
             </Box> */}
+             <Box>
+            <Typography variant="h6" component="h6" sx={styles.Title}>
+                About Us
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+                Blazing Render Creation Hub LLP started as an Animation & VFX agency, fueled by creativity and passion. Over time, we expanded into web services, combining artistic vision with modern tech. Today, we deliver high-end Web Development, UI/UX, Mobile Apps, and Digital Marketing solutions — all from the heart of Ballari, Karnataka.
+            </Typography>
+        </Box>
         </Box>
     );
 };

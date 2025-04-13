@@ -55,5 +55,11 @@ export default [
         filter: "ui",
         image: Work,
         url: "/"
+    },
+    {
+        name: "Animation & VFX",
+        filter: "animation",
+        image: Work,
+        url: "https://thebrchub.com/"
     }
 ]

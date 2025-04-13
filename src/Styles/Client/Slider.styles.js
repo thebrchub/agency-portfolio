@@ -1,20 +1,30 @@
 const styles = {
     Embla: {
         overflow: "hidden",
-        px: {
-            md: "10%",
-            sm: "3%",
-            xxs: "3%"
+        pl: {
+            md: "3%",
+            sm: "2%",
+            xxs: "2%"
+        },
+        pr: {
+            md: "2%",
+            sm: "1%",
+            xxs: "1%"
         },
         pt: "5em",
     },
     EmblaContainer: {
-        display: "flex"
+        display: "flex",
+        gap: "1rem", // or your desired spacing
+        padding: 0, // remove extra space
+        marginLeft: "0%"
     },
     EmblaSlide: {
         position: "relative",
+            flex: "0 0 auto",
+            minWidth: "300px", 
         flex: {
-            lg: "0 0 40%",
+            lg: "0 0 31%",
             md: "0 0 55%",
             smd: "0 0 70%",
             lsm: "0 0 80%",
@@ -54,7 +64,7 @@ const styles = {
         bottom: "0",
         left: "50%",
         transform: "translate(-50%, 50%)",
-        backgroundColor: "primary.main",
+        backgroundColor: "#162144",
         color: "white",
         fontSize: "16px",
         fontWeight: 700,
@@ -62,19 +72,27 @@ const styles = {
         borderRadius: "15px"
     },
     Navigation: {
-        mt: "3em",
+        display: "flex",               // Enable flexbox
+        justifyContent: "center",     // Center the buttons horizontally
+        alignItems: "center",         // (Optional) Vertically center if needed
+        mt: "5em",
         mb: "10px",
+        gap: "1rem",                  // Add spacing between buttons
+    
         button: {
             backgroundColor: "background.default",
             boxShadow: theme => `3px 4px 3px ${theme.palette.primary.box_shadow_client}`,
             p: "8px",
-            m: "0 5px",
             borderRadius: "4px",
+            border: "none",            // Optional cleanup
+            cursor: "pointer",
+    
             svg: {
-                fontSize: "20px"
+                fontSize: "30px"
             }
         }
     }
+    
 }
 
 export default styles;

@@ -9,20 +9,22 @@ import BottomFooter from "Components/Footer/BottomFooter";
 
 const Footer = () => {
     return (
-        <Container maxWidth={false} disableGutters as="footer" sx={{ pt: "5em" }}>
+        <Container maxWidth={false} disableGutters as="footer" sx={{ pt: "3em" }}>
             <Grid container spacing={{ xl: 13, lg: 10, md: 5, sm: 10, xxs: 5 }}>
-                <Grid item md={3} sm={6}>
-                    <FooterOne />
+                <Grid item md={3} sm={6} xxs={12}>
+                    <FooterFour />
                 </Grid>
                 <Grid item md={3} sm={6} xxs={12}>
                     <FooterTwo />
+                </Grid>    
+                <Grid item md={3} sm={6}>
+                    <FooterOne />   
+                
                 </Grid>
                 <Grid item md={3} sm={6} xxs={12}>
                     <FooterThree />
                 </Grid>
-                <Grid item md={3} sm={6} xxs={12}>
-                    <FooterFour />
-                </Grid>
+                
             </Grid>
             <BottomFooter />
         </Container>

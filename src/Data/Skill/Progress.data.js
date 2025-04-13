@@ -4,6 +4,10 @@ export default [
         progress: 85
     },
     {
+        field: "Animation & VFX",
+        progress: 80
+    },
+    {
         field: "Ui/Ux Design",
         progress: 80
     },

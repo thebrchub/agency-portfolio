@@ -58,7 +58,8 @@ const Portfolio = () => {
                         <Tab label="Web Development" value="1" onClick={() => filterItem('web')} />
                         <Tab label="App Development" value="2" onClick={() => filterItem('app')} />
                         <Tab label="UI/UX" value="3" onClick={() => filterItem('ui')} />
-                        <Tab label="Animation & VFX" value="4" onClick={() => filterItem('graphic')} />
+                        <Tab label="Graphic Designing" value="4" onClick={() => filterItem('graphic')} />
+                        <Tab label="Animation & VFX" value="5" onClick={() => filterItem('animation')} />
                     </TabList>
                 </Box>
                 <TabPanel value="1" sx={{ pr: "0px", mt: "15px" }}>
@@ -105,6 +106,19 @@ const Portfolio = () => {
                         <Fade in={value === "4" ? true : false} timeout={2000}>
                             <Box>
                                 <Slide in={value === "4" ? true : false} direction="left" timeout={800} container={containerRef.current}>
+                                    <Box>
+                                        <Work works={Items} />
+                                    </Box>
+                                </Slide>
+                            </Box>
+                        </Fade>
+                    </Box>
+                </TabPanel>
+                <TabPanel value="5" sx={{ pr: "0px", mt: "15px" }}>
+                    <Box ref={containerRef}>
+                        <Fade in={value === "5" ? true : false} timeout={2000}>
+                            <Box>
+                                <Slide in={value === "5" ? true : false} direction="left" timeout={800} container={containerRef.current}>
                                     <Box>
                                         <Work works={Items} />
                                     </Box>

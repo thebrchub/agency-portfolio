@@ -6,7 +6,7 @@ import Graphic from "Assets/about/graphic.png";
 
 export default [
     {
-        title: "UI/UX",
+        title: "UI/UX & Graphic Designing",
         description: "We craft seamless digital journeys—starting from wireframes to polished interfaces that your users will love using and your devs will love building.",
         icon: Ui
     },

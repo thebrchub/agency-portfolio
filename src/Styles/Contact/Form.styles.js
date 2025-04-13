@@ -29,16 +29,26 @@ const styles = {
         fontWeight: 600,
         color: "background.default",
         borderRadius: "5px",
-        width: "100%",
+    
+        // 🔥 Changed this:
+        width: "fit-content",     // Only as wide as its content
+        maxWidth: "300px",        // Just in case content is long
+        paddingInline: "24px",    // Horizontal padding
+        marginInline: "auto",     // Center horizontally
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+    
         ">svg": {
             fontSize: "18px",
             mb: "-3px",
             ml: "10px"
         }
     },
+    
     ErrorMessage: {
         mt: "5px",
-        color: "primary.main",
+        color: "red",
         svg: {
             mb: '-2px',
             mr: '5px',

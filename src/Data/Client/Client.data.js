@@ -2,39 +2,39 @@ import Client from "Assets/review/client-1.png";
 
 export default [
     {
-        title: "Quality Service",
-        name: "Particle",
-        star: 4,
-        review: "They Provide great quality service and their behavior is so much helpful.",
+        title: "Amazing Design Work",
+        name: "VisionEdge Studios",
+        star: 5,
+        review: "Blazing Render absolutely nailed our animation needs! The designs were top-notch and delivered on time.",
         avatar: Client
     },
-    {
-        title: "Very Much helpful",
-        name: "MRG",
-        star: 4,
-        review: "Supply chains management is so much hard than it shows. We use their supply chain management solution for a year.",
+    {  
+         title: "Highly Professional Team",
+        name: "Nexora Innovations",
+        star: 5,
+        review: "They understood our requirements clearly and executed the project with great professionalism and creativity.",
         avatar: Client
     },
 
-    {
-        title: "Very Much helpful",
-        name: "Istiak Ahmed",
-        star: 4,
-        review: "My startups have some major problems that we can't solve. I knock them and they solve the problem in a matter of minutes.",
+    {   
+        title: "Impressive Web Development",
+        name: "ByteCraft Solutions",
+        star: 5,
+        review: "Loved the way they built our website — sleek, responsive, and blazing fast! Will surely work with them again.",
         avatar: Client
     },
     {
-        title: "Very Much helpful",
-        name: "Miranda Dis",
-        star: 4,
-        review: "Our full social media posting and marketing are handled by them. They are so professional and always believe in analytics rather than other things.",
+        title: "Top-Notch VFX Delivery",
+        name: "DreamSpark Studios",
+        star: 5,
+        review: "Super impressed with their VFX skills. The output looked like something straight out of a movie!",
         avatar: Client
     },
     {
-        title: "Quality Service",
-        name: "Luiz Fendi",
-        star: 4,
-        review: "We build our eCommerce site from here. Their UI/UX experience is so much great and the user engaging.",
+        title: "Great Collaboration Experience",
+        name: "GlideTech Creations",
+        star: 5,
+        review: "Friendly and talented team. They were very open to feedback and quick with iterations. Awesome experience!",
         avatar: Client
     }
 ]

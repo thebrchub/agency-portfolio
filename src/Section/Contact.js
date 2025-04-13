@@ -19,7 +19,7 @@ const Contact = () => {
                 value1="You Dream It.We Blaze It. "
                 value2="Slide Into Our Inbox with Your Ideas."
                 border={true}
-                color="white" 
+                color="#162144" 
             />
             <Form />
 

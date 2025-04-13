@@ -14,7 +14,8 @@ import styles from "Styles/Client/Slider.styles";
 const Sliders = () => {
     const [viewportRef, embla] = useEmblaCarousel({
         dragFree: true,
-        containScroll: "trimSnaps"
+        // containScroll: "trimSnaps"
+        containScroll: false
     });
     const [prevBtnEnabled, setPrevBtnEnabled] = useState(false);
     const [nextBtnEnabled, setNextBtnEnabled] = useState(false);
@@ -32,9 +33,29 @@ const Sliders = () => {
         embla.on("select", onSelect);
         onSelect();
     }, [embla, onSelect]);
+    
+    
+    // useEffect(() => {
+    //     if (!embla) return;
+    
+    //     let animationFrame;
+    //     const step = 0.15; // Adjust for slower or faster speed
+    
+    //     const scrollSmoothly = () => {
+    //         if (!embla) return;
+    //         embla.scrollTo(embla.scrollProgress() + step);
+    //         animationFrame = requestAnimationFrame(scrollSmoothly);
+    //     };
+    
+    //     animationFrame = requestAnimationFrame(scrollSmoothly);
+    
+    //     return () => cancelAnimationFrame(animationFrame);
+    // }, [embla]);
+    
+    
     return (
         <Box sx={{ mt: "2em" }}>
-            <Box className="embla" sx={styles.Embla}>
+            <Box className="embla" sx={{ ...styles.Embla, position: "relative" }}>
                 <Box className="embla__viewport" ref={viewportRef}>
                     <Box className="embla__container" sx={styles.EmblaContainer}>
                         {Clients &&
@@ -49,7 +70,7 @@ const Sliders = () => {
                                         <Typography variant="h6" component="h6" sx={styles.Title}>
                                             {client.title}
                                         </Typography>
-                                        <Rating name="half-rating-read" defaultValue={client.star} precision={0.5} readOnly />
+                                        <Rating name="half-rating-read" value={client.star} precision={0.5} readOnly />
                                         <Typography variant="body1" component="p" sx={styles.Description}>
                                             {client.review}
                                         </Typography>
@@ -92,3 +113,4 @@ const NextButton = ({ enabled, onClick }) => (
         <ChevronRight />
     </ButtonBase>
 );
+
