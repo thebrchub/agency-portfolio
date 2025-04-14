@@ -1,10 +1,14 @@
 const styles = {
+    Title: {
+        fontWeight: 700,
+        mb: "1.8em"
+    },
     Address: {
         mt: "15px",
         alignItems: "start",
         svg: {
             fontSize: "20px",
-            mr: "5px"
+            mr: "7px"
         },
         "& p": {
             fontSize: "15px",

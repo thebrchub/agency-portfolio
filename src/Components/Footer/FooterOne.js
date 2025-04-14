@@ -15,7 +15,12 @@ import styles from "Styles/Footer/FooterOne.styles";
 const FooterOne = () => {
     return (
         <Box>
-            <Box sx={{ mb: "30px" }}>
+            {/* <Box>
+                <Typography variant="h6" component="h6" sx={styles.Title}>
+                    Contact Info
+                </Typography>
+            </Box> */}
+            <Box sx={{ mb: "1px" }}>
                 <Image src={Logo} width={287} height={44} alt="Logo" />
             </Box>
             <Stack direction="row" sx={styles.Address}>
@@ -33,7 +38,7 @@ const FooterOne = () => {
                     <EmailIcon />
                 </Box>
                 <Box>
-                    <Link href="mailto:info@codestation21.com">
+                    <Link href="mailto:connect.brchubllp@gmail.cpm.com">
                         <a>
                             <Typography variant="body1" component="p">
                                 connect.brchubllp@gmail.com
