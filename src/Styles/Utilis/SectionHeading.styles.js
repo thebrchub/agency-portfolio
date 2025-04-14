@@ -7,12 +7,14 @@ const styles = {
         textAlign: "center", 
         letterSpacing: "1px",
         fontSize: {
-            sm: "2em",
-            xxs: "1.2rem",
-            xs: "1rem",  // Mobile
-            sm: "2rem",    // Tablet
-            md: "2.5rem",  // Desktop
-        },
+            xxs: "0.9rem",   // Very small devices (custom, if your theme supports it)
+            xs:  "1rem",     // Phones
+            sm:  "1.9rem",   // Tablets
+            md:  "2rem",     // Small laptops
+            lg:  "2.3rem",   // Desktops
+            xl:  "2.7rem",   // Large screens
+          },
+          
         margin: "0 auto", // Centers the whole element in the parent container
         display: "block", // Ensure it behaves like a block-level element
     },

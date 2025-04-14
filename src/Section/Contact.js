@@ -16,7 +16,7 @@ const Contact = () => {
     return (
         <Container maxWidth={false} disableGutters as="section" sx={styles.Container} id="contact">
             <SectionHeading
-                value1="You Dream It.We Blaze It. "
+                value1="You Dream It. We Blaze It. "
                 value2="Slide Into Our Inbox with Your Ideas."
                 border={true}
                 color="#162144" 

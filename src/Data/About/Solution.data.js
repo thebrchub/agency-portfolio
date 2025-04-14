@@ -7,7 +7,7 @@ import Graphic from "Assets/about/graphic.png";
 export default [
     {
         title: "UI/UX & Graphic Designing",
-        description: "We craft seamless digital journeys—starting from wireframes to polished interfaces that your users will love using and your devs will love building.",
+        description: "Function meets flair—our design approach merges seamless user journeys with stunning visual impact.",
         icon: Ui
     },
     {
@@ -22,7 +22,7 @@ export default [
     },
     {
         title: "Animation & VFX",
-        description: "Visuals that speak louder than words. From logos to social media creatives, we deliver designs that are bold, memorable, and on-brand.",
+        description: "Seamless meets stylish—UI/UX and graphics come together to make every user journey visually unforgettable.",
         icon: Graphic
     }
 ]
