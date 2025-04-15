@@ -31,8 +31,9 @@ const theme = createTheme({
             social_color: "#415674", // Social Icon Color
             inputBorder: "#0000001f", //For NewsLetter Input Border Color
             HeroGradient: "linear-gradient(135deg,rgba(0, 208, 255, 0.72) ,rgba(94, 12, 166, 0.65))", // Gradient (Hero Section)
-            WorkGradient: "linear-gradient(to right,rgba(0, 208, 255, 0.72), #FFF)", // Gradient (Portfolio Section)
-            ContactGradient: "linear-gradient(to right, rgba(0, 208, 255, 0.72),rgba(94, 12, 166, 0.65))", // Gradient (Contact Section)
+            WorkGradient: "linear-gradient(to bottom, rgba(255,255,255,0), #ffffff 100%), linear-gradient(to right, rgba(0, 208, 255, 0.72), #ffffff)",
+            ClientGradient: "linear-gradient(180deg,rgba(94, 12, 166, 0.65), rgba(0, 208, 255, 0.72))",
+            ContactGradient: "linear-gradient(180deg, rgba(0, 208, 255, 0.72),rgba(94, 12, 166, 0.65))", // Gradient (Contact Section)
         }
     },
     breakpoints: {

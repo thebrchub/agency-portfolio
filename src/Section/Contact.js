@@ -10,7 +10,7 @@ import Form from "Components/Contact/Form";
 import styles from "Styles/Contact/Contact.styles";
 
 // 🟢 Import mascot image
-import MascotGreen from "S:/Git Projects/agency-portfolio/src/Assets/green_mascot.png"; // adjust if needed
+import MascotGreen from "Assets/green_mascot.png"; // adjust if needed
 
 const Contact = () => {
     return (
@@ -42,6 +42,7 @@ const Contact = () => {
                             pr: 7,
                             fontWeight: 800,
                             pl:- 1,
+                            // md: "1.2rem",
                             // fontSize: { xs: "1rem", md: "1.2rem" },
     textAlign: { xs: "center", md: "right" },
     pr: { md: 2 },
@@ -63,7 +64,7 @@ const Contact = () => {
                             zIndex: 2,
                             position: "relative",
                             marginTop: "-50px",  // Pulls it up close to the form
-                            marginBottom: "-86px", // Optional: if you want it tight with next section
+                            marginBottom: "-78px", // Optional: if you want it tight with next section
                             mx: "auto",          // Center horizontally
                             zIndex: 2,
                             position: "relative",

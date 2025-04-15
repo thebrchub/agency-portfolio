@@ -23,7 +23,7 @@ const styles = {
         }
     },
     SubmitButton: {
-        backgroundColor: "primary.main",
+        backgroundColor: "rgb(94, 12, 166)",
         height: "52px",
         fontSize: "14px",
         fontWeight: 600,

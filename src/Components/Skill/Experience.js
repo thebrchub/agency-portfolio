@@ -1,7 +1,4 @@
 import { Box, Typography, ButtonBase } from "@mui/material";
-import Link from "next/link";
-
-//Icons
 import ArrowForwardTwoToneIcon from '@mui/icons-material/ArrowForwardTwoTone';
 
 //Data
@@ -11,6 +8,13 @@ import Experiences from "Data/Skill/Experience.data";
 import styles from "Styles/Skill/Experience.styles";
 
 const Experience = () => {
+    const scrollToContact = () => {
+        const contactSection = document.getElementById("contact");
+        if (contactSection) {
+            contactSection.scrollIntoView({ behavior: "smooth" });
+        }
+    };
+
     return (
         <Box sx={{ mb: { md: "0px", xxs: "20px" } }}>
             <Typography variant="h4" component="h4" sx={styles.Title}>
@@ -21,16 +25,13 @@ const Experience = () => {
                 {Experiences.description}
             </Typography>
             <Box sx={styles.ButtonContainer}>
-                <Link href={Experiences.btnUrl}>
-                    <a>
-                        <ButtonBase sx={styles.Button}>
-                            {Experiences.btnText}
-                            <ArrowForwardTwoToneIcon />
-                        </ButtonBase>
-                    </a>
-                </Link>
+                <ButtonBase sx={styles.Button} onClick={scrollToContact}>
+                    {Experiences.btnText}
+                    <ArrowForwardTwoToneIcon />
+                </ButtonBase>
             </Box>
         </Box>
     );
 };
+
 export default Experience;

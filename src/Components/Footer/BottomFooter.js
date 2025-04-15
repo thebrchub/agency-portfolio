@@ -32,9 +32,9 @@ const BottomFooter = () => {
                         © {new Date().getFullYear()} Blazing Render Creation Hub LLP. All Rights Reserved.
                     </Typography>
                     <Stack direction="row" sx={styles.Terms}>
-                        <ButtonBase>
+                        {/* <ButtonBase>
                             Purchase
-                        </ButtonBase>
+                        </ButtonBase> */}
                         <ButtonBase onClick={handleClickOpen('privacy')}>
                             Privacy Policy
                         </ButtonBase>
@@ -47,9 +47,9 @@ const BottomFooter = () => {
             <Box sx={{ display: { smd: "none", xxs: "block" }, mb: "20px" }}>
                 <Stack sx={{ alignItems: "center", mb: { sm: "0px", xxs: "20px" } }}>
                     <Stack direction="row" sx={styles.Terms}>
-                        <ButtonBase>
+                        {/* <ButtonBase>
                             Purchase
-                        </ButtonBase>
+                        </ButtonBase> */}
                         <ButtonBase onClick={handleClickOpen('privacy')}>
                             Privacy Policy
                         </ButtonBase>
