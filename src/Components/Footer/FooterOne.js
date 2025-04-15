@@ -15,14 +15,14 @@ import styles from "Styles/Footer/FooterOne.styles";
 const FooterOne = () => {
     return (
         <Box>
-            {/* <Box>
+            <Box>
                 <Typography variant="h6" component="h6" sx={styles.Title}>
                     Contact Info
                 </Typography>
-            </Box> */}
-            <Box sx={{ mb: "1px" }}>
-                <Image src={Logo} width={287} height={44} alt="Logo" />
             </Box>
+            {/* <Box sx={{ mb: "1px" }}>
+                <Image src={Logo} width={287} height={44} alt="Logo" />
+            </Box> */}
             <Stack direction="row" sx={styles.Address}>
                 <Box>
                     <MapIcon />
