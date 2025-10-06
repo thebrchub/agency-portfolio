@@ -8,7 +8,25 @@ export default class MyDocument extends Document {
         return (
             <Html lang="en">
                 <Head>
+                    <meta name="emotion-insertion-point" content="" /> {/* ✅ FIX HERE */}
                     <link rel="shortcut icon" href="/static/favicon.ico" />
+
+                    {/* ✅ Google tag (gtag.js) */}
+                    <script
+                        async
+                        src="https://www.googletagmanager.com/gtag/js?id=G-KH67ZDJMXC"
+                    ></script>
+                    <script
+                        dangerouslySetInnerHTML={{
+                            __html: `
+                                window.dataLayer = window.dataLayer || [];
+                                function gtag(){dataLayer.push(arguments);}
+                                gtag('js', new Date());
+                                gtag('config', 'G-KH67ZDJMXC');
+                            `,
+                        }}
+                    />
+
                     {this.props.emotionStyleTags}
                 </Head>
                 <body>
@@ -19,10 +37,12 @@ export default class MyDocument extends Document {
         );
     }
 }
+
 MyDocument.getInitialProps = async (ctx) => {
     const originalRenderPage = ctx.renderPage;
     const cache = createEmotionCache();
     const { extractCriticalToChunks } = createEmotionServer(cache);
+
     ctx.renderPage = () =>
         originalRenderPage({
             enhanceApp: (App) =>
@@ -30,6 +50,7 @@ MyDocument.getInitialProps = async (ctx) => {
                     return <App emotionCache={cache} {...props} />;
                 },
         });
+
     const initialProps = await Document.getInitialProps(ctx);
     const emotionStyles = extractCriticalToChunks(initialProps.html);
     const emotionStyleTags = emotionStyles.styles.map((style) => (
@@ -39,6 +60,7 @@ MyDocument.getInitialProps = async (ctx) => {
             dangerouslySetInnerHTML={{ __html: style.css }}
         />
     ));
+
     return {
         ...initialProps,
         emotionStyleTags,
